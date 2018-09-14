@@ -20,3 +20,17 @@ In almost every project a team works on, they will make use of different package
 The most popular package manager is `npm`, which we use on this project
 
 To add `npm`, install the `node` available [here](https://nodejs.org/en/)
+
+## Setting up a Development Server
+Working with JavaScript, in the majority of cases will require that you work with a browser which will display the changes you make to your application. For this reason, you would need a web server. Setting up a web server can also help you share your work across a team.
+
+Options available include;
+- http-server [link](https://www.npmjs.com/package/http-server)
+- live-server  [link](https://www.npmjs.com/package/live-server)
+- express [link](https://expressjs.com/)
+- browser-sync [link](https://browsersync.io/)
+and more;
+
+For this environment, we are using `express` 
+
+- Install express by running `npm install -g express` in your terminal
